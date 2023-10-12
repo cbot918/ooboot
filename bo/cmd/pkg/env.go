@@ -1,0 +1,9 @@
+package pkg
+
+func Env() string {
+	return `
+DB_TYPE="mysql"
+DB_URL="root:12345@tcp(localhost:3307)/fso"
+PORT=":8083"
+`
+}
